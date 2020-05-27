@@ -1,0 +1,96 @@
+body{
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+	background-image: url("images/bgimg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-size: 100%;
+ 	background-attachment: fixed;
+}
+.main{
+	width: 70%;
+	position: absolute;
+}
+.aside{
+	margin-left: 100%;
+    width: 30% ;
+    float: right ;
+    height: 25% ;
+    position: sticky ; 
+    position: -webkit- sticky ; 
+    top : 2% ; 
+}
+.myimg{
+	width: 50%;
+	height: auto;
+	border-radius: 50%;
+	transition-property: width, height;
+	transition-duration: 1s;
+}
+.myimg:hover{
+	width: 100%;
+	height:auto;
+	border: #000 solid 1px;
+    margin: 50px auto;
+   	overflow: hidden;
+   	cursor: pointer;
+    transition: all 0.6s;
+	cursor: pointer;
+    transition: all 0.6s;
+}
+.icons{
+	width: 10%;
+	height: auto;
+}
+.icons:hover{
+	width: 30%;
+	height:auto;
+	border: #000 solid 1px;
+    margin: 50px auto;
+   	overflow: hidden;
+   	cursor: pointer;
+    transition: all 0.6s;
+	cursor: pointer;
+    transition: all 0.6s;
+}
+button{
+	width: 120px;
+	height: 60px;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+	font-size:20px;
+}
+.title{
+	margin-right: 10%;
+}
+textarea{
+	width: 300px;
+	height: 200px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.buttontotop{
+	position: fixed;
+	bottom: 90px;
+	right: 15px;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	font-size: 28px;
+	text-decoration: none;
+	border: 2px white solid;
+	border-radius: 50%;
+}
+h1{
+	color: blue;
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+	margin-left: 10%;
+}
